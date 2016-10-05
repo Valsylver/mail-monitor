@@ -1,0 +1,37 @@
+{
+    "arguments" : [
+        {
+            "full" : "sender",
+            "short" : "s",
+            "value" : true,
+            "description" : "Mail sender"
+        },
+        {
+            "full" : "senderMail",
+            "short" : "m",
+            "value" : true,
+            "description" : "Mail sender address"
+        },
+        {
+            "full" : "receiver",
+            "short" : "r",
+            "value" : true,
+            "description" : "Mail receiver address"
+        },
+        {
+            "full" : "subject",
+            "short" : "o",
+            "value" : true,
+            "description" : "subject"
+        },
+        {
+            "full" : "content",
+            "short" : "c",
+            "value" : true,
+            "description" : "Content"
+        }
+    ],
+    "defaults" : {
+        "help" : true
+    }
+}
